@@ -17,3 +17,5 @@
 - inspecting_vocab.csv: Contains csv of saved vocabulary of custom BPE
 - inspecting_vocab.xlsx: Contains excel of saved vocabulary of custom BPE
 - wordcloud_1.png : wordcloud_5.png : Contain 5 wordclouds of resulted vocabulary of custom BPE
+- Armenian Wikipedia Dataset.pdf: Contains pdf file mentioning two links to the main datasets (one is a newer version).
+- Armenian Tokenizer - Report: Contains main report of the project
