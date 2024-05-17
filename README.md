@@ -20,7 +20,7 @@ To run this project, you will need Python 3.11. It is recommended to use a virtu
 3. **Create a Virtual Environment**  
   * On Windows 
   ```bash
-  venv\Scripts\activate
+  venv/Scripts/Activate
   ```
   
   * On MacOS/Linux:
