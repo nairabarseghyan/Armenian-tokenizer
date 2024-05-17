@@ -40,6 +40,7 @@ Armenian-Tokenizer/
    ├── reports/                                           # Report and assets
    │   ├── img/                                           # Wordcloud Images
    │   ├── csv/                                           # Vocabs saved in csv for easy inspection
+   │   ├── Armenian-Tokenizer-Presentation.pdf            # Final Presentation
    │   └── Armenian Tokenizer - Report.pdf                # Final Report
    │
    ├── models/                                            # Saved models of this project 
@@ -60,7 +61,8 @@ Armenian-Tokenizer/
    ├── Tiktoken_training_1000rows.ipynb                   # Tiktoken Training     
    ├── Tiktoken-training-10rows.ipynb                     # Tiktoken Training     
    ├── Tiktoken_p50k_base.ipynb                           # Tiktoken Tokenization     
-   ├── Tiktoken_cl100k_base.ipynb                         # Tiktoken Tokenization                  
+   ├── Tiktoken_cl100k_base.ipynb                         # Tiktoken Tokenization
+   ├── Armenian Wikipedia Dataset.pdf                     # Access the data using this file  
    ├── README.md                                          # Read Me file
    └── requirements.txt                                   # Python dependencies for the project
 
@@ -78,10 +80,11 @@ Armenian-Tokenizer/
 - WordPiece_tokenizer.py: Contains custom WordPiece class for WordPiece Tokenization
 - armenian_bpe_tokenizer.pkl: Contains custom BPE's trained model
 - bpe_tokenizer_trial.pkl: Contains training on portion of Armenian Wikipedia with vocab 1000 using tiktoken
-- inspecting_vocab.csv: Contains csv of saved vocabulary of custom BPE
-- inspecting_vocab.xlsx: Contains excel of saved vocabulary of custom BPE
-- wordcloud_1.png : wordcloud_5.png : Contain 5 wordclouds of resulted vocabulary of custom BPE
-- Armenian Wikipedia Dataset.pdf: Contains pdf file mentioning two links to the main datasets (one is a newer version).
-- Armenian Tokenizer - Report: Contains main report of the project
 - SentencePiece.ipynb: Contains training of SentencePiece BPE tokenier
 - armenian_sentencepiece_tokenizer.models and .vocab: Contain SentencePiece model and vocab.
+- inspecting_vocab_*.csv: Contains csv of saved vocabulary of tokenizers
+- inspecting_vocab_*.xlsx: Contains excel of saved vocabulary of tokenizers
+- wordcloud_*.png : Contain wordclouds of resulted vocabulary of tokenizers
+- Armenian Wikipedia Dataset.pdf: Contains pdf file mentioning two links to the main datasets (one is a newer version).
+- Armenian Tokenizer - Report: Contains main report of the project
+- Armenian-Tokenizer-Presentation.pdf: Contains main presentation of the project
